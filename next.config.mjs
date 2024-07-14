@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    experimental: {
+        "react-hooks/rules-of-hooks": false,
+      },
+};
 
 export default nextConfig;
